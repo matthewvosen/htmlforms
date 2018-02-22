@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title>HTML Forms</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div>This is an HTML Form Practice</div>
+		<form>
+			<div id="firstname">First Name</div>
+			<input type="text" name="firstname" placeholder="First Name">
+			<div id="lastname">Last Name</div>
+			<input type="text" name="lastname" placeholder="Last Name">
+
+			<div>Birth Date</div>
+			<input type="date" name="bday">
+
+			<div>What's your favorite car?</div>
+			<input type="radio" name="car" value="tesla" checked> Tesla
+			<input type="radio" name="car" value="bmw"> BMW
+			<input type="radio" name="car" value="smartcar"> Smart Car
+
+			<div>Favorite Social Media Platform?</div>
+			<select name="social">
+				<option id="twitter" value="twitter">Twitter</option>
+				<option id="facebook" value="facebook">Facebook</option>
+				<option id="snapchat" value="snapchat">Snapchat</option>
+				<option id="instagram" value="instagram">Instagram</option>
+				<option id="reddit" value="reddit">Reddit</option>
+			</select>
+
+			<div>Favorite Thing to Watch?</div>
+			<input type="checkbox" name="shows" value="movies"> I like movies <br>
+			<input type="checkbox" name="shows" value="tvshows"> I like TV shows <br>
+			<input type="checkbox" name="shows" value="plays"> I like plays <br>
+
+			<div>Do you agree to the terms of use?</div>
+			<input type="checkbox" name="terms" value="terms" checked="checked"> Agree? <br>
+
+			<textarea name="comment" placeholder="Add a random comment"></textarea>
+
+			<div>Type in your random comment here</div><br>
+			<button id="submit" onclick="submit">Submit</button>
+		</form>
+	</body>
+</html>
